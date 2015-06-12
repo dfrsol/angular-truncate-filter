@@ -33,5 +33,5 @@ By default, a standard "..." will be used if a custom ellipsis is not passed.
  {{ scopeVariable | truncation:10 }}
  ```
 
- #### Coming soon
+ ### Coming soon
  * Word truncation
