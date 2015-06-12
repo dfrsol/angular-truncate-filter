@@ -6,7 +6,7 @@ module.exports = function(grunt){
         jshint: {
             files: [
                 'Gruntfile.js',
-                'truncateFilter.js'
+                'truncate.js'
             ],
             options: {
                 jshintrc: '.jshintrc'
@@ -24,8 +24,8 @@ module.exports = function(grunt){
                 ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> \n*/\n'
             },
             build: {
-                src: 'truncateFilter.js',
-                dest: 'truncateFilter.min.js'
+                src: 'truncate.js',
+                dest: 'truncate.min.js'
             }
         }
     });
