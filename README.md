@@ -1,5 +1,5 @@
 # angular-truncate-filter
-A AngularJS truncation filter truncates text strings to a set number of characters with the ability to add a custom ellipsis.
+An AngularJS truncation filter, that truncates text strings to a set number of characters with a custom ellipsis.
 
 ## How to use my truncate filter
 
@@ -24,13 +24,12 @@ truncate:numberOfCharacters:wordBreak:customEllipsis
 ### Then apply truncation to an AngularJS expression.
 
 ```javascript
-{{ scopeVariable | truncation:10:true:"---" }} || ng-repeat="word in scopeVariable | truncate:5:true"
+{{ scopeVariable | truncation:10:true:"---" }}
+ng-repeat="word in scopeVariable | truncate:5:true"
 ```
 
 By default, a standard "..." will be used if a custom ellipsis is not passed.
 ```html
- <p>
-     {{ text | characters:25 :true}}
- </p>
+ {{ scopeVariable | truncation:10 }}
  ```
  * Adding word truncation next
