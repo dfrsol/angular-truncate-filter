@@ -6,7 +6,7 @@ An AngularJS truncation filter, that truncates text strings to a set number of c
 ###Include the javascript min file within your HTML.
 
 ``` html
-<script src="truncate.min.js"></script>
+<script src="src/truncate.min.js"></script>
 ```
 
 ### Inject `truncate` module into your application module
